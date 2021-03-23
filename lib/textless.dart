@@ -107,11 +107,12 @@ class ThemedText extends StatelessWidget {
   ThemedText get alignEnd => textless({"textAlign": TextAlign.end});
 }
 
-extension TextLess on String {
-  Widget style(TextStyle style) {
-    return Text(this, style: style);
-  }
+extension ThemedTextStyle on ThemedText {}
 
+extension TextLess on String {
+  ThemedText style(TextStyle style) =>
+      ThemedText(data: this, style: (t) => style);
+  ThemedText get text => ThemedText(data: this);
   ThemedText get h1 => ThemedText(data: this, style: (t) => t.headline1!);
   ThemedText get h2 => ThemedText(data: this, style: (t) => t.headline2!);
   ThemedText get h3 => ThemedText(data: this, style: (t) => t.headline3!);

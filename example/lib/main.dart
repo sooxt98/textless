@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
             "Subtitle1".s1,
             "Subtitle1".s2,
             "BodyText1".b1,
-            "BodyText2".b2,
+            "BodyText2".style(TextStyle(color: Colors.red)),
             "Button".btn,
             "Caption".cap,
             "Overline".ol,

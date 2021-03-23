@@ -12,7 +12,7 @@ Add this to your package's `pubspec.yaml` file:
 ```
 ...
 dependencies:
-  textless: ^3.3.3
+  textless: ^4.4.4
   
 ```
 
@@ -22,9 +22,9 @@ import 'package:textless/textless.dart';
 ```
 
 ## Usage
-> TEXTLESS magically uses `GetMaterialApp`'s default text theme
+> TEXTLESS magically uses `MaterialApp`'s default text theme
 
-**[ Start with ]**  .h1 .h2 .h3 .h4 .h5 .h6 .s1 .s2 .b1 .b2 .btn .cap .ol
+**[ Start with ]**  .h1 .h2 .h3 .h4 .h5 .h6 .s1 .s2 .b1 .b2 .btn .cap .ol .text .style
 
 **[ End_ with ]**
 .lineThrough

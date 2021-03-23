@@ -12,7 +12,7 @@ Add this to your package's `pubspec.yaml` file:
 ```
 ...
 dependencies:
-  textless: ^4.4.4
+  textless: ^5.5.5
   
 ```
 
@@ -72,5 +72,6 @@ import 'package:textless/textless.dart';
 .alignJustify
 .alignStart
 .alignEnd
+.softWrap
 
 ![image](https://user-images.githubusercontent.com/13378059/111704389-02d78b00-887a-11eb-9a61-686b15ba1a13.png)

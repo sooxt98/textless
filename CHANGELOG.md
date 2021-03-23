@@ -1,3 +1,7 @@
+## 5.5.5
+
+* Added .softWrap
+
 ## 4.4.4
 
 * Added .style and .text

@@ -22,7 +22,7 @@ class ThemedText extends StatelessWidget {
         style: style!(Theme.of(context).textTheme),
         overflow: extra?["overflow"],
         maxLines: extra?["maxLine"],
-        softWrap: false,
+        softWrap: extra?["softWrap"],
         textAlign: extra?["textAlign"],
         textScaleFactor: extra?["textScaleFactor"]);
   }
@@ -89,6 +89,8 @@ class ThemedText extends StatelessWidget {
   ThemedText shadows(List<Shadow> v) => textless(TextStyle(shadows: v));
   ThemedText fontFeatures(List<FontFeature> v) =>
       textless(TextStyle(fontFeatures: v));
+
+  ThemedText softWrap(bool v) => textless({"softWrap": v});
 
   ThemedText get overflowVisible =>
       textless({"overflow": TextOverflow.visible});

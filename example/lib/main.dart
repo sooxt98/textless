@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            "Headline1".h1.overflowFade,
+            "Headline1".h1.overflowFade.softWrap(false),
             "Headline2".h2,
             "Headline3".h3,
             "Headline4".h4,

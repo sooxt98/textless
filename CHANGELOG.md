@@ -1,3 +1,7 @@
+## 6.6.6
+
+* Fix .text null issue
+
 ## 5.5.5
 
 * Added .softWrap

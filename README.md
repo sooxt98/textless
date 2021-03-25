@@ -12,7 +12,7 @@ Add this to your package's `pubspec.yaml` file:
 ```
 ...
 dependencies:
-  textless: ^5.5.5
+  textless: ^6.6.6
   
 ```
 

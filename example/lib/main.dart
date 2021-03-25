@@ -53,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
             "Button".btn,
             "Caption".cap,
             "Overline".ol,
+            "Custom".text.color(Colors.blue),
           ],
         ),
       ),

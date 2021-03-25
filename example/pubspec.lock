@@ -141,7 +141,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "5.5.5"
+    version: "6.6.6"
   typed_data:
     dependency: transitive
     description:

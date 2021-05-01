@@ -109,6 +109,14 @@ class ThemedText extends StatelessWidget {
   ThemedText get alignEnd => textless({"textAlign": TextAlign.end});
 }
 
+extension PaddingOnNumb on num {
+  EdgeInsetsGeometry get pl => EdgeInsets.only(left: toDouble());
+  EdgeInsetsGeometry get pr => EdgeInsets.only(right: toDouble());
+  EdgeInsetsGeometry get pt => EdgeInsets.only(top: toDouble());
+  EdgeInsetsGeometry get pb => EdgeInsets.only(bottom: toDouble());
+  EdgeInsetsGeometry get p => EdgeInsets.all( toDouble());
+}
+
 extension ThemedTextStyle on ThemedText {}
 
 extension TextLess on String {

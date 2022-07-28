@@ -128,4 +128,13 @@ extension TextLess on String {
   ThemedText get btn => ThemedText(data: this, style: (t) => t.button!);
   ThemedText get cap => ThemedText(data: this, style: (t) => t.caption!);
   ThemedText get ol => ThemedText(data: this, style: (t) => t.overline!);
+  ThemedText get bSmall => ThemedText(data: this, style: (t) => t.bodySmall!);
+  ThemedText get bMedium => ThemedText(data: this, style: (t) => t.bodyMedium!);
+  ThemedText get bLarge => ThemedText(data: this, style: (t) => t.bodyLarge!);
+  ThemedText get hSmall => ThemedText(data: this, style: (t) => t.headlineSmall!);
+  ThemedText get hMedium => ThemedText(data: this, style: (t) => t.headlineMedium!);
+  ThemedText get hLarge => ThemedText(data: this, style: (t) => t.headlineLarge!);
+  ThemedText get lSmall => ThemedText(data: this, style: (t) => t.labelSmall!);
+  ThemedText get lMedium => ThemedText(data: this, style: (t) => t.labelMedium!);
+  ThemedText get lLarge => ThemedText(data: this, style: (t) => t.labelLarge!);
 }
